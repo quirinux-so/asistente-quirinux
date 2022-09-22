@@ -1,0 +1,241 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  Move(0,0,791,504)
+  #Scaled = False
+  Background = Color.White
+  NoTabFocus = True
+  Mask = True
+  { Idioma Menu
+    Text = ("Idioma")
+    Visible = False
+    { es_AR Menu
+      #Translate = False
+      Action = "ar.Show"
+      Text = "Castellano (Argentina)"
+      Picture = Picture["argentina.png"]
+    }
+    { es_ES Menu
+      #Translate = False
+      Action = "es.Show"
+      Text = "Castellano (España)"
+      Picture = Picture["spain.png"]
+    }
+    { de_DE Menu
+      #Translate = False
+      Action = "de.Show"
+      Text = "Deutsche"
+      Picture = Picture["alemania.png"]
+    }
+    { en_GB Menu
+      #Translate = False
+      Action = "engb.Show"
+      Text = "English (British)"
+      Picture = Picture["inglaterra.png"]
+    }
+    { en_US Menu
+      #Translate = False
+      Action = "us.Show"
+      Text = "English (USA)"
+      Picture = Picture["eeuu.jpg"]
+    }
+    { fr_FR Menu
+      #Translate = False
+      Action = "fr.Show"
+      Text = "Français"
+      Picture = Picture["francia.png"]
+    }
+    { gl_ES Menu
+      #Translate = False
+      Action = "gl.Show"
+      Text = "Galego"
+      Picture = Picture["galicia.jpg"]
+    }
+    { it_IT Menu
+      #Translate = False
+      Action = "it.Show"
+      Text = "Italiano"
+      Picture = Picture["italia.png"]
+    }
+    { pt_BR Menu
+      #Translate = False
+      Action = "br.Show"
+      Text = "Português (Brasil)"
+      Picture = Picture["brazil.png"]
+    }
+    { pt_PT Menu
+      #Translate = False
+      Action = "pt.Show"
+      Text = "Português (Portugal)"
+      Picture = Picture["portugal.png"]
+    }
+    { ru_RU Menu
+      #Translate = False
+      Action = "ru.Show"
+      Text = "Pусский"
+      Picture = Picture["rusia.png"]
+    }
+  }
+  { LogoQuirinux PictureBox
+    Move(588,371,162,117)
+    Picture = Picture["quirinux-rectangular.png"]
+    Stretch = True
+  }
+  { Label1 Label
+    Move(42,0,812,70)
+    Font = Font["Segoe UI,+4"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = (" Asistente de Quirinux")
+  }
+  { Lengua MenuButton
+    Move(273,119,469,42)
+    #Translate = False
+    Font = Font["Segoe UI"]
+    Background = Color.White
+    Mouse = Mouse.Pointing
+    Drop = True
+    Expand = True
+    PopupMenu = "Idioma"
+    Text = "Idioma / Sprache / Langage / Lingua / Linguaggio / Língua / Язык"
+    Picture = Picture["icon:/medium/language"]
+    Menu = "Idioma"
+    MenuOnly = True
+  }
+  { Plantillas_en_linea Button
+    Move(511,266,231,42)
+    Font = Font["+1"]
+    Mouse = Mouse.Pointing
+    ToolTip = ("Requiere conexión a internet")
+    Text = ("Plantillas en línea")
+    Picture = Picture["icon:/medium/copy"]
+  }
+  { Programas Button
+    Move(273,168,231,42)
+    Font = Font["Segoe UI,+1"]
+    Mouse = Mouse.Pointing
+    Text = ("Iniciar programas")
+    Picture = Picture["icon:/medium/play"]
+  }
+  { Estilo Button
+    Move(273,217,231,42)
+    Font = Font["Segoe UI,+1"]
+    Mouse = Mouse.Pointing
+    ToolTip = ("Cambiar apariencia del escritorio")
+    Text = ("Apariencia (Win/Mac)")
+    Picture = Picture["icon:/medium/wizard"]
+  }
+  { Conectar_a_internet Button
+    Move(511,168,231,42)
+    Font = Font["Segoe UI,+1"]
+    Mouse = Mouse.Pointing
+    ToolTip = ("Requiere conexión a internet")
+    Text = ("Conectar a Internet")
+    Picture = Picture["icon:/medium/internet"]
+  }
+  { Instalar Button
+    Move(273,315,469,42)
+    Font = Font["Segoe UI,+1"]
+    Foreground = Color.DarkCyan
+    Mouse = Mouse.Pointing
+    ToolTip = ("Instalar en disco duro")
+    Text = ("Instalar")
+    Picture = Picture["icon:/medium/cdrom"]
+  }
+  { nomostrar CheckBox
+    Move(259,427,252,28)
+    Mouse = Mouse.Pointing
+    Text = ("Mostrar esta pantalla al inicio")
+    Value = CheckBox.True
+  }
+  { Label2 Label
+    Move(315,455,477,18)
+    Font = Font["Arial,Italic,-1"]
+    Foreground = Color.SelectedBackground
+    Text = ("En modo vivo aparecerá de todas formas.")
+  }
+  { Opciones_avanzadas Button
+    Move(273,266,231,42)
+    Font = Font["Segoe UI,+1"]
+    Mouse = Mouse.Pointing
+    ToolTip = ("Requiere conexión a internet")
+    Text = ("Opciones Avanzadas")
+    Picture = Picture["icon:/medium/options"]
+  }
+  { Manual_en_linea Button
+    Move(511,217,231,42)
+    Font = Font["Segoe UI,+1"]
+    Mouse = Mouse.Pointing
+    ToolTip = ("Requiere conexión a internet")
+    Text = ("Manual en línea")
+    Picture = Picture["icon:/medium/book"]
+  }
+  { Panel1 Panel
+    Move(21,77,223,314)
+    { PictureBox1 PictureBox
+      Move(0,0,217,308)
+      Picture = Picture["QUIRINUX-PRO.png"]
+      Stretch = True
+    }
+  }
+}
+
+# Gambas Action File 3.0
+
+{ Actions
+  { Action ar.Show
+    Text = "Castellano (Argentina)"
+    Shortcut = ""
+    Picture = "argentina.png"
+  }
+  { Action br.Show
+    Text = "Português (Brasil)"
+    Shortcut = ""
+    Picture = "brazil.png"
+  }
+  { Action de.Show
+    Text = "Deutsche"
+    Shortcut = ""
+    Picture = "alemania.png"
+  }
+  { Action engb.Show
+    Text = "English (British)"
+    Shortcut = ""
+    Picture = "inglaterra.png"
+  }
+  { Action es.Show
+    Text = "Castellano (España)"
+    Shortcut = ""
+    Picture = "spain.png"
+  }
+  { Action fr.Show
+    Text = "Français"
+    Shortcut = ""
+    Picture = "francia.png"
+  }
+  { Action gl.Show
+    Text = "Galego"
+    Shortcut = ""
+    Picture = "galicia.jpg"
+  }
+  { Action it.Show
+    Text = "Italiano"
+    Shortcut = ""
+    Picture = "italia.png"
+  }
+  { Action pt.Show
+    Text = "Português (Portugal)"
+    Shortcut = ""
+    Picture = "portugal.png"
+  }
+  { Action ru.Show
+    Text = "Pусский"
+    Shortcut = ""
+    Picture = "rusia.png"
+  }
+  { Action us.Show
+    Text = "English (USA)"
+    Shortcut = ""
+    Picture = "eeuu.jpg"
+  }
+}

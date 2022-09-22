@@ -1,0 +1,41 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,123,67)
+  Background = Color.White
+  { Label1 Label
+    MoveScaled(8,0,116,10)
+    Font = Font["Segoe UI,+4"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = (" Cámara reflex")
+  }
+  { TextArea1 TextArea
+    MoveScaled(21,15,82,10)
+    #Translate = False
+    Background = Color.White
+    Text = "La compatibilidad con cámaras reflex en aplicaciones como TupiTube y Tahoma2D aún se está desarrollando. Puedes utilizar tu cámara reflex en qStopMotion o en Entangle, programas que ya incluyen este soporte y también vienen preinstaladas en Quirinux Pro 64."
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea2 TextArea
+    MoveScaled(21,28,88,13)
+    #Translate = False
+    Background = Color.White
+    Text = "También puedes utilizar una función EXPERIMENTAL que te permitirá utilizar tu cámara como si fuera una Webcam, con la aplicación que quieras aunque, lamentablemente, con una resolucioń menor a la que conseguirás utiilzandola en aplicación que soporten el modo reflex nativo (las mencionadas al final del párrafo anterior). "
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { reflex Button
+    MoveScaled(42,45,37,8)
+    Text = ("Conectar reflex como webcam")
+    Picture = Picture["icon:/medium/camera"]
+  }
+  { reflex2 Button
+    MoveScaled(42,55,37,8)
+    Text = ("Salir")
+    Picture = Picture["icon:/medium/cancel"]
+  }
+}

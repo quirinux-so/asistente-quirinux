@@ -1,0 +1,52 @@
+[CLIENT] 0x2600026
+  [CLIENT_ID] 2bdf66aa7-7eb4-43f9-85c5-535b384fd8f9
+  [CLIENT_LEADER] 0x2600001
+  [WINDOW_ROLE] xfce4-terminal-1616858178-1033911492
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - quirinux@quirinux: ~
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (248,219,840,410)
+  [GEOMETRY-MAXIMIZED] (248,219,840,410)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x1200007
+  [CLIENT_ID] 2406d93de-9825-4bbc-9961-ee2315c009b2
+  [CLIENT_LEADER] 0x1200001
+  [WINDOW_ROLE] Thunar-1616855349-2195142683
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] quirinux - Administrador de archivos
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (0,48,1280,672)
+  [GEOMETRY-MAXIMIZED] (0,48,1280,672)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x380
+[CLIENT] 0x120002c
+  [CLIENT_ID] 2406d93de-9825-4bbc-9961-ee2315c009b2
+  [CLIENT_LEADER] 0x1200001
+  [WINDOW_ROLE] Thunar-1616856354-3287289241
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] .config - Administrador de archivos
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (0,48,1280,672)
+  [GEOMETRY-MAXIMIZED] (0,48,1280,672)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x380
+[CLIENT] 0x2600003
+  [CLIENT_ID] 2bdf66aa7-7eb4-43f9-85c5-535b384fd8f9
+  [CLIENT_LEADER] 0x2600001
+  [WINDOW_ROLE] xfce4-terminal-1616856017--1697122409
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - quirinux@quirinux: ~
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (402,157,820,486)
+  [GEOMETRY-MAXIMIZED] (402,157,820,486)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10080

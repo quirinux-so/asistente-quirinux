@@ -1,0 +1,26 @@
+' Gambas class file
+
+
+Public Sub Label1_MouseDown()
+
+  
+
+End
+
+Public Sub TextArea3_KeyPress()
+
+  
+
+End
+
+Public Sub Aceptar_Click()
+
+  Shell "wicd-gtk --no-tray"  
+
+End
+
+Public Sub Cancelar_Click()
+
+  Me.Close
+
+End

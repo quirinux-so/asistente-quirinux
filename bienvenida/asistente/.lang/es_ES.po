@@ -1,0 +1,105 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: asistente 3.12.2\n"
+"POT-Creation-Date: 2022-04-24 19:42 UTC\n"
+"PO-Revision-Date: 2021-04-21 19:16 UTC\n"
+"Last-Translator: charlie <charlie@debian>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .project:1
+msgid "Quirinux"
+msgstr "Quirinux"
+
+#: FMain.form:37
+msgid "Idioma"
+msgstr "Idioma"
+
+#: FMain.form:118
+msgid " Asistente de Quirinux"
+msgstr " Asistente de Quirinux"
+
+#: FMain.form:139
+msgid "Requiere conexión a internet"
+msgstr "Requiere conexión a internet"
+
+#: FMain.form:140
+msgid "Plantillas en línea"
+msgstr ""
+
+#: FMain.form:148
+msgid "Iniciar programas"
+msgstr "Iniciar programas"
+
+#: FMain.form:156
+msgid "Cambiar apariencia del escritorio"
+msgstr "Cambiar apariencia del escritorio"
+
+#: FMain.form:157
+msgid "Apariencia (Win/Mac)"
+msgstr "Apariencia (Win/Mac)"
+
+#: FMain.form:166
+msgid "Manual en línea"
+msgstr "Manual en línea"
+
+#: FMain.form:175
+msgid "Instalar en disco duro"
+msgstr "Instalar en disco duro"
+
+#: FMain.form:176
+msgid "Instalar"
+msgstr "Instalar"
+
+#: FMain.form:183
+msgid "Mostrar esta pantalla al inicio"
+msgstr "Mostrar esta pantalla al inicio"
+
+#: FMain.form:191
+msgid "En modo vivo aparecerá de todas formas."
+msgstr ""
+
+#: FMain.form:204
+msgid "Crear usuarios y modificar contraseñas"
+msgstr ""
+
+#: FMain.form:205
+msgid "Usuarios y grupos"
+msgstr ""
+
+#: FMain.form:214
+msgid "Opciones Avanzadas"
+msgstr ""
+
+#: Redes.form:62
+msgid " A continuación se abrirá el gestor de redes"
+msgstr ""
+
+#: Redes.form:99
+msgid "Aceptar"
+msgstr ""
+
+#: Redes.form:104 gl.form:88
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#: ar.form:102 br.form:100 de.form:100 engb.form:100 es.form:100 fr.form:100
+#: fran.form:100 gl.form:100 it.form:100 pt.form:100 ru.form:100 us.form:100
+msgid "!"
+msgstr ""
+
+#: gb.form:93
+msgid "Cerrar"
+msgstr ""
+
+#~ msgid " Apariencia de Quirinux"
+#~ msgstr "Apariencia de Quirinux"
+
+#~ msgid "Cerrar el asistente"
+#~ msgstr "Cerrar el asistente"
+
+#~ msgid "Conectar  a internet"
+#~ msgstr "Conectar  a internet"

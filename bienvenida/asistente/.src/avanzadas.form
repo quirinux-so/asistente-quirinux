@@ -1,0 +1,53 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,108,57)
+  Background = Color.White
+  { Label1 Label
+    MoveScaled(12,0,116,10)
+    Font = Font["Segoe UI,+4"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = (" Opciones Avanzadas")
+  }
+  { actualizar Button
+    MoveScaled(12,13,42,7)
+    Text = ("Actualizar Quirinux")
+    Picture = Picture["icon:/medium/download"]
+  }
+  { repoconfig Button
+    MoveScaled(12,22,42,7)
+    Text = ("Configurar repositorios")
+    Picture = Picture["icon:/medium/package"]
+  }
+  { configurargimp Button
+    MoveScaled(12,31,42,7)
+    Text = ("Configurar GIMP")
+    Picture = Picture["icon:/medium/color"]
+  }
+  { configurarflatpak Button
+    MoveScaled(56,13,43,7)
+    Text = ("Configurar Flatpak")
+    Picture = Picture["icon:/medium/exec"]
+  }
+  { configurarbluetooth Button
+    MoveScaled(56,22,43,7)
+    Text = ("Configurar Bluetooth")
+    Picture = Picture["icon:/medium/blue"]
+  }
+  { configurarbluetooth2 Button
+    MoveScaled(56,31,43,7)
+    Text = ("Usar cámara DSLR como Webcam")
+    Picture = Picture["icon:/medium/camera"]
+  }
+  { configurarbluetooth3 Button
+    MoveScaled(56,40,43,7)
+    Text = ("Eliminar componentes privativos")
+    Picture = Picture["icon:/medium/gnu"]
+  }
+  { configurarbluetooth4 Button
+    MoveScaled(12,40,42,7)
+    Text = ("Usuarios, grupos y compartir")
+    Picture = Picture["icon:/medium/group"]
+  }
+}

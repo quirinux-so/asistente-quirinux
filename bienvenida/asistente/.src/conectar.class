@@ -1,0 +1,15 @@
+' Gambas class file
+
+
+Public Sub Paso3_KeyPress()
+
+  
+
+End
+
+Public Sub reflex_Click()
+
+  Shell "emulewebcam"
+
+
+End

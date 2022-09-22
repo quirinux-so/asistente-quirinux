@@ -1,0 +1,98 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,74,52)
+  #Translate = False
+  Background = Color.White
+  Border = False
+  { Label1 Label
+    MoveScaled(7,0,127,8)
+    #Translate = False
+    Font = Font["Segoe UI,+5"]
+    Background = &HDFF7FF&
+    Foreground = Color.SelectedBackground
+    Text = " Atención"
+  }
+  { TextArea1 TextArea
+    MoveScaled(11,12,58,10)
+    #Translate = False
+    Background = Color.White
+    Text = "Para cambiar el idioma, será necesario que ingreses el nombre de usuario y contraseña. En el caso del pendrive de instalación USB de Quirinux, estos datos son:"
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea2 TextArea
+    MoveScaled(38,22,29,4)
+    #Translate = False
+    Font = Font["Segoe UI,Bold,+1"]
+    Foreground = Color.SelectedBackground
+    Text = "quirinux"
+    Alignment = Align.Left
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { !TextArea3 TextArea
+    MoveScaled(11,32,58,13)
+    #Public = True
+    #Translate = False
+    Background = Color.White
+    Text = "Si tenés Quirinux instalado en tu disco rígido, tendrás que ingresar tus propios datos y si estás trabajando con una computadora ajena vas a necesitar consultarlos al administrador. "
+    Wrap = True
+    Border = False
+  }
+  { TextArea4 TextArea
+    MoveScaled(38,26,29,4)
+    #Translate = False
+    Font = Font["Segoe UI,Bold,+1"]
+    Foreground = Color.SelectedBackground
+    Text = "quirinux"
+    Alignment = Align.Left
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea5 TextArea
+    MoveScaled(13,22,25,4)
+    #Translate = False
+    Font = Font["Segoe UI,Bold,+1"]
+    Text = "Usuario:"
+    Alignment = Align.Right
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea6 TextArea
+    MoveScaled(13,26,25,4)
+    #Translate = False
+    Font = Font["Segoe UI,Bold,+1"]
+    Text = "Contraseña:"
+    Alignment = Align.Right
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Cancelar Button
+    MoveScaled(40,44,14,4)
+    #Translate = False
+    Text = "Cancelar"
+  }
+  { Traducir Button
+    MoveScaled(24,44,14,4)
+    #Translate = False
+    Text = "Traducir"
+  }
+  { Label2 Label
+    MoveScaled(127,0,10,7)
+    Font = Font["Blue Highway D Type,Bold,Italic,+10"]
+    Foreground = Color.Red
+    Text = ("!")
+  }
+  { Label3 Label
+    MoveScaled(66,0,5,7)
+    Font = Font["Blue Highway D Type,Bold,Italic,+10"]
+    Foreground = Color.Red
+    Text = ("!")
+  }
+}

@@ -1,0 +1,143 @@
+' Gambas class file
+
+Public Sub Programas_Click()
+
+  Shell "xfce4-popup-whiskermenu"
+
+End
+
+Public Sub Estilo_Click()
+
+  Shell "estilos"
+
+End
+
+Public Sub Conectar_a_internet_Click()
+
+  
+
+End
+
+Public Sub Label3_MouseDown()
+
+  Me.Close
+
+End
+
+Public Sub Conectar_Click()
+
+  Redes.Show
+
+End
+
+Public Sub Plantillas_en_linea_Click()
+
+  Shell "firefox https://www.quirinux.org/plantillas"
+
+End
+
+Public Sub Instalar_Click()
+
+  Shell "calamares"
+
+End
+
+Public Sub usuarios_Click()
+
+  Shell "usuarios"
+
+End
+
+Public Sub Opciones_avanzadas_Click()
+
+  avanzadas.Show
+
+End
+
+Public Sub es_ES_Click()
+
+  es.Show
+
+End
+
+Public Sub es_AR_Click()
+
+  ar.Show
+
+End
+
+Public Sub de_DE_Click()
+
+  de.Show
+
+End
+
+Public Sub en_GB_Click()
+
+  engb.Show
+
+End
+
+Public Sub en_US_Click()
+
+  us.Show
+
+End
+
+Public Sub gl_ES_Click()
+
+  gl.Show
+
+End
+
+Public Sub it_IT_Click()
+
+  it.Show
+
+End
+
+Public Sub pt_BR_Click()
+
+  br.Show
+
+End
+
+Public Sub pt_PT_Click()
+
+  pt.Show
+
+End
+
+Public Sub ru_RU_Click()
+
+  ru.Show
+
+End
+
+Public Sub fr_FR_Click()
+
+  fr.Show
+
+End
+
+
+
+
+Public Sub Manual_en_linea_Click()
+
+  Shell "firefox https://www.quirinux.org/manuales-quirinux/"
+
+End
+
+Public Sub nomostrar_Click()
+
+  If nomostrar.Value = False Then Shell "sed -i 's/Hidden=false/Hidden=false/g' ./config/autostart/quirinux-asistente"
+  If nomostrar.Value = True Then Shell "sed -i 's/Hidden=true/Hidden=false/g' ./config/autostart/quirinux-asistente"
+
+End
+
+Public Sub PictureBox1_MouseDown()
+
+  
+
+End

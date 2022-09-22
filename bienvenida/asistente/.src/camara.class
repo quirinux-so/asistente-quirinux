@@ -1,0 +1,28 @@
+' Gambas class file
+
+
+Public Sub TextBox1_KeyPress()
+
+  
+
+End
+
+Public Sub TextArea1_KeyPress()
+
+  
+
+End
+
+Public Sub TextArea2_KeyPress()
+
+  
+
+End
+
+Public Sub reflex_Click()
+
+  conectar.Show
+  camara.Close
+  
+
+End

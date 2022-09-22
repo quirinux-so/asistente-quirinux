@@ -1,0 +1,87 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: asistente 3.12.2\n"
+"PO-Revision-Date: 2021-04-21 19:15 UTC\n"
+"Last-Translator: charlie <charlie@debian>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .project:1
+msgid "Quirinux"
+msgstr "Quirinux"
+
+#: FMain.form:38
+msgid "Idioma"
+msgstr "Sprache"
+
+#: FMain.form:119
+msgid " Asistente de Quirinux"
+msgstr "Quirinux-Assistent"
+
+#: FMain.form:140
+msgid "Requiere conexión a internet"
+msgstr "Benötigt Internetverbindung"
+
+#: FMain.form:141
+msgid "Plantillas en línea"
+msgstr ""
+
+#: FMain.form:149
+msgid "Conectar  a internet"
+msgstr "Conectar  a internet"
+
+#: FMain.form:157
+msgid "Iniciar programas"
+msgstr "Programme starten"
+
+#: FMain.form:165
+msgid "Cambiar apariencia del escritorio"
+msgstr "Ändern Sie das Erscheinungsbild des Desktops"
+
+#: FMain.form:166
+msgid "Apariencia (Win/Mac)"
+msgstr "Aussehen (Win / Mac)"
+
+#: FMain.form:175
+msgid "Manual en línea"
+msgstr "Online-Handbuch"
+
+#: FMain.form:184
+msgid "Instalar en disco duro"
+msgstr "Auf Festplatte installieren"
+
+#: FMain.form:185
+msgid "Instalar"
+msgstr "Installieren"
+
+#: FMain.form:192
+msgid "Mostrar esta pantalla al inicio"
+msgstr "Zeigen Sie diesen Bildschirm beim Start an"
+
+#: FMain.form:200
+msgid "En modo vivo aparecerá de todas formas."
+msgstr "Im Live-Modus wird es trotzdem angezeigt."
+
+#: FMain.form:214 estilos.form:25
+msgid "Cerrar el asistente"
+msgstr "Schließen Sie den Assistenten"
+
+#: FMain.form:215 estilos.form:26
+msgid "X"
+msgstr ""
+
+#: ar.form:99 br.form:100 de.form:100 engb.form:100 es.form:100 fr.form:100 gl.form:100 it.form:100 pt.form:100 ru.form:100 us.form:100
+msgid "!"
+msgstr ""
+
+#: estilos.form:17
+msgid " Apariencia de Quirinux"
+msgstr "\nQuirinux Aussehen"
+
+#: gl.form:88
+msgid "Cancelar"
+msgstr "Stornieren"
+

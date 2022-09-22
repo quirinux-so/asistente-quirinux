@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Nombre:	estilo-mac
+# Autor:	Charlie Martínez® <cmartinez@quirinux.org>
+# Licencia:	https://www.gnu.org/licenses/gpl-2.0.txt
+# Descripción:	Configura aspecto de Quirinux
+# Versión:	1.00
+
+
+for config in /home/*; do cp -r -f -a /opt/estilos/estilo-mac/.config $config; done
+for xdg in /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/*; do sudo yes | sudo cp -r -f -a /opt/estilos/estilo-mac/xfce-perchannel-xml/* $xdg; done
+
+xfce4-session-logout --logout && startxfce4 

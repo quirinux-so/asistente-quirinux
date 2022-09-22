@@ -1,0 +1,45 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,109,64)
+  Background = Color.White
+  { PictureBox1 PictureBox
+    MoveScaled(5,3,95,40)
+    Picture = Picture["camara-pasos.jpg"]
+    Stretch = True
+  }
+  { Paso1 TextArea
+    MoveScaled(18,8,27,9)
+    #Translate = False
+    Text = "Enciende la cámara y colócala en modo VIDEO"
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Paso2 TextArea
+    MoveScaled(61,8,33,9)
+    #Translate = False
+    Text = "Conecta la cámara al ordenador"
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Paso3 TextArea
+    MoveScaled(10,42,86,9)
+    #Translate = False
+    Text = "Finalmente, presiona el botón CONECTAR. Luego podrás abrir cualquier aplicación que admita cámara web y buscar tu cámara entre las opciones diponibles. No cierres este ventana mientras estés trabajando con tu cámara o perderás la conexión. "
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { reflex Button
+    MoveScaled(15,54,37,8)
+    Text = ("Conectar")
+    Picture = Picture["icon:/medium/camera"]
+  }
+  { reflex2 Button
+    MoveScaled(56,54,37,8)
+    Text = ("Salir")
+    Picture = Picture["icon:/medium/cancel"]
+  }
+}

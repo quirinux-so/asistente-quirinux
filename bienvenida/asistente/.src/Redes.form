@@ -1,0 +1,87 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,132.8571,67.1429)
+  Background = Color.White
+  { TextArea2 TextArea
+    MoveScaled(9,12,54,5)
+    #Translate = False
+    Background = Color.White
+    Text = "Pasos a seguir:"
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea3 TextArea
+    MoveScaled(9,44,54,5)
+    #Translate = False
+    Text = "1. Pulsa sobre Iniciar Wi-Fi"
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea4 TextArea
+    MoveScaled(9,47,54,5)
+    #Translate = False
+    Text = "2. Presiona el botón \"Actualizar\"."
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { PictureBox1 PictureBox
+    MoveScaled(9,19,63.2857,23.4286)
+    Picture = Picture["wifi-pasos.png"]
+  }
+  { PictureBox2 PictureBox
+    MoveScaled(90,23,33,25)
+    Background = Color.White
+    Picture = Picture["barra-wifi.png"]
+  }
+  { Label1 Label
+    MoveScaled(9,0,124,10)
+    Font = Font["Segoe UI,+4"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = (" A continuación se abrirá el gestor de redes")
+  }
+  { TextArea1 TextArea
+    MoveScaled(90,15,38,4)
+    #Translate = False
+    Text = "Otra manera de abrir el gestor:"
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea5 TextArea
+    MoveScaled(9,50,54,5)
+    #Translate = False
+    Text = "Se mostrarán las redes disponibles."
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea6 TextArea
+    MoveScaled(90,20,38,4)
+    #Translate = False
+    Text = "Clic derecho sobre el ícono de redes"
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea7 TextArea
+    MoveScaled(90,23,38,4)
+    #Translate = False
+    Text = "en el panel de Quirinux."
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Aceptar Button
+    MoveScaled(83,60,23,5)
+    Text = ("Aceptar")
+  }
+  { Cancelar Button
+    MoveScaled(108,60,23,5)
+    Text = ("Cancelar")
+  }
+}

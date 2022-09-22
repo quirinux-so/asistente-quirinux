@@ -1,0 +1,90 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,73.2857,51.1429)
+  #Translate = False
+  Background = Color.White
+  Border = False
+  { Label1 Label
+    MoveScaled(7,0,88,8)
+    #Translate = False
+    Font = Font["+4"]
+    Background = &HDFF7FF&
+    Foreground = Color.SelectedBackground
+    Text = " Внимание"
+  }
+  { TextArea1 TextArea
+    MoveScaled(12,12,54,10)
+    #Translate = False
+    Text = "В ходе этого процесса вам нужно будет ввести свое имя пользователя и пароль. В случае USB-накопителя для установки Quirinux это следующие данные:"
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea2 TextArea
+    MoveScaled(37,21,29,4)
+    #Translate = False
+    Font = Font["Bold"]
+    Foreground = Color.SelectedBackground
+    Text = "quirinux"
+    Alignment = Align.Left
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea3 TextArea
+    MoveScaled(12,30,54,11)
+    #Translate = False
+    Text = "Если у вас установлен Quirinux на жестком диске, используйте свои собственные данные, а если вы работаете с чужим компьютером, вам необходимо проконсультироваться с администратором."
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea4 TextArea
+    MoveScaled(37,25,29,4)
+    #Translate = False
+    Font = Font["Bold"]
+    Foreground = Color.SelectedBackground
+    Text = "quirinux"
+    Alignment = Align.Left
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea5 TextArea
+    MoveScaled(12,21,25,4)
+    #Translate = False
+    Font = Font["Bold"]
+    Text = "Пользователь:"
+    Alignment = Align.Right
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea6 TextArea
+    MoveScaled(12,25,25,4)
+    #Translate = False
+    Font = Font["Bold"]
+    Text = "пароль:"
+    Alignment = Align.Right
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Cancelar Button
+    MoveScaled(38,43,14,4)
+    #Translate = False
+    Text = "Отмена"
+  }
+  { Traducir Button
+    MoveScaled(22,43,14,4)
+    #Translate = False
+    Text = "Перевести"
+  }
+  { Label2 Label
+    MoveScaled(65,0,5,7)
+    Font = Font["Blue Highway D Type,Bold,Italic,+10"]
+    Foreground = Color.Red
+    Text = ("!")
+  }
+}

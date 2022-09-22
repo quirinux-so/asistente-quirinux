@@ -1,0 +1,35 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: asistente 3.12.2\n"
+"PO-Revision-Date: 2020-10-10 23:11 UTC\n"
+"Last-Translator: quirinux <quirinux@quirinux>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .project:1
+msgid "Quirinux"
+msgstr "Quirinux\n"
+
+#: FMain.form:30
+msgid "Idioma"
+msgstr "Язык"
+
+#: FMain.form:89
+msgid "Idioma - Sprache - Langage - Lingua - Linguaggio - Língua - Язык"
+msgstr "ЗакрытьIdioma - Sprache - Langage - Lingua - Linguaggio - Língua - Язык"
+
+#: FMain.form:110
+msgid " Asistente de Quirinux"
+msgstr "Помощник Quirinux"
+
+#: FMain.form:116 ar.form:93 br.form:93 de.form:93 engb.form:93 es.form:93 fr.form:93 gl.form:93 it.form:93 pt.form:93 ru.form:93 us.form:93
+msgid "Cerrar"
+msgstr "Закрыть"
+
+#: gl.form:82
+msgid "Cancelar"
+msgstr "Отмена"
+

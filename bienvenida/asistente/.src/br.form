@@ -1,0 +1,90 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,73.2857,51.1429)
+  #Translate = False
+  Background = Color.White
+  Border = False
+  { Label1 Label
+    MoveScaled(7,0,88,8)
+    #Translate = False
+    Font = Font["+4"]
+    Background = &HDFF7FF&
+    Foreground = Color.SelectedBackground
+    Text = " Atenção"
+  }
+  { TextArea1 TextArea
+    MoveScaled(12,12,54,11)
+    #Translate = False
+    Text = "Ao longo deste processo, você precisará inserir seu nome de usuário e senha. No caso do pendrive de instalação Quirinux USB, esses dados são:\n"
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea2 TextArea
+    MoveScaled(37,21,29,4)
+    #Translate = False
+    Font = Font["Bold"]
+    Foreground = Color.SelectedBackground
+    Text = "quirinux"
+    Alignment = Align.Left
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea3 TextArea
+    MoveScaled(12,30,54,10)
+    #Translate = False
+    Text = "Se você tem o Quirinux instalado no seu disco rígido, use seus próprios dados e se você estiver trabalhando com um computador estrangeiro, você precisará consultar o administrador. "
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea4 TextArea
+    MoveScaled(37,25,29,4)
+    #Translate = False
+    Font = Font["Bold"]
+    Foreground = Color.SelectedBackground
+    Text = "quirinux"
+    Alignment = Align.Left
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea5 TextArea
+    MoveScaled(12,21,25,4)
+    #Translate = False
+    Font = Font["Bold"]
+    Text = "Usuário:"
+    Alignment = Align.Right
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea6 TextArea
+    MoveScaled(12,25,25,4)
+    #Translate = False
+    Font = Font["Bold"]
+    Text = "Senha:"
+    Alignment = Align.Right
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Cancelar Button
+    MoveScaled(38,43,14,4)
+    #Translate = False
+    Text = "Cancelar"
+  }
+  { Traducir Button
+    MoveScaled(22,43,14,4)
+    #Translate = False
+    Text = "Traduzir"
+  }
+  { Label2 Label
+    MoveScaled(66,0,5,7)
+    Font = Font["Blue Highway D Type,Bold,Italic,+10"]
+    Foreground = Color.Red
+    Text = ("!")
+  }
+}

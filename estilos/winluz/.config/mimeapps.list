@@ -1,0 +1,5 @@
+[Added Associations]
+application/x-desktop=mousepad.desktop;
+text/plain=mousepad.desktop;
+application/x-shellscript=mousepad.desktop;
+image/png=ristretto.desktop;shotwell-viewer.desktop;

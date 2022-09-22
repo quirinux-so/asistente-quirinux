@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Nombre:	estilo-retro
+# Autor:	Charlie Martínez® <cmartinez@quirinux.org>
+# Licencia:	https://www.gnu.org/licenses/gpl-2.0.txt
+# Descripción:	Configura aspecto de Quirinux 
+# Versión:	1.00
+
+FILE="/home/*/.config/autostart/dock"
+
+if [ -f "$FILE" ]; then
+
+sudo rm /home/*/.config/autostart/dock
+for config in /home/*; do cp -r -f -a /opt/estilos/estilo-winvintage/.config $config; done
+for xdg in /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/*; do sudo yes | sudo cp -r -f -a /opt/estilos/estilo-winvintage/xfce-perchannel-xml/* $xdg; done
+xfce4-session-logout --logout && startxfce4
+
+else
+
+for config in /home/*; do cp -r -f -a /opt/estilos/estilo-winvintage/.config $config; done
+for xdg in /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/*; do sudo yes | sudo cp -r -f -a /opt/estilos/estilo-winvintage/xfce-perchannel-xml/* $xdg; done
+xfce4-session-logout --logout && startxfce4
+
+fi

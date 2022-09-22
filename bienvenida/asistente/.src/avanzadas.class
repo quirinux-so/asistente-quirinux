@@ -1,0 +1,50 @@
+' Gambas class file
+
+
+Public Sub Label1_MouseDown()
+
+  
+
+End
+
+Public Sub repoconfig_Click()
+
+  Shell "repo-config"
+
+End
+
+Public Sub actualizar_Click()
+
+  Shell "actualizar"
+
+End
+
+Public Sub configurargimp_Click()
+
+  Shell "gimp-quirinux"
+
+End
+
+Public Sub configurarbluetooth4_Click()
+
+  Shell "usuarios"
+
+End
+
+Public Sub configurarflatpak_Click()
+
+  Shell "flatpak-config"
+
+End
+
+Public Sub configurarbluetooth_Click()
+
+  Shell "sudo bluconfig"
+
+End
+
+Public Sub configurarbluetooth2_Click()
+
+  camara.Show
+
+End

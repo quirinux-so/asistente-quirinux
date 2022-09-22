@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///usr/local/bin/sonido-inicio" added="2021-03-27T02:07:51Z" modified="2021-03-27T02:07:51Z" visited="2021-03-27T02:07:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-session-settings" exec="&apos;xfce4-session-settings %u&apos;" modified="2021-03-27T02:07:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/images/Quirinux-splash/general-64-splash.png" added="2021-03-27T02:09:01Z" modified="2021-03-27T02:09:01Z" visited="2021-03-27T02:09:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-session-settings" exec="&apos;xfce4-session-settings %u&apos;" modified="2021-03-27T02:09:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/icons/inicio/quirinux-pro.png" added="2021-03-27T11:39:03Z" modified="2021-03-27T11:39:03Z" visited="2021-03-27T11:39:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="mugshot" exec="&apos;mugshot %u&apos;" modified="2021-03-27T11:39:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/quirinux/.xfce4-session.verbose-log" added="2021-03-27T13:03:05Z" modified="2021-03-27T13:03:05Z" visited="2021-03-27T13:03:06Z">
+    <desc>Conjunto de caracteres: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-03-27T13:03:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/quirinux/.xsession-errors" added="2021-03-27T13:03:21Z" modified="2021-03-27T13:03:21Z" visited="2021-03-27T13:03:21Z">
+    <desc>Conjunto de caracteres: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-03-27T13:03:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/sudoers.d/quirinux" added="2021-03-27T14:15:13Z" modified="2021-03-27T14:15:13Z" visited="2021-03-27T14:15:14Z">
+    <desc>Conjunto de caracteres: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-03-27T14:15:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/local/bin/estilo-win10" added="2021-03-27T15:28:54Z" modified="2021-03-27T15:30:27Z" visited="2021-03-27T15:28:55Z">
+    <desc>Conjunto de caracteres: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-03-27T15:30:27Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/quirinux/Compartida/asistente/estilo/estilo-classic.sh" added="2021-03-27T15:40:25Z" modified="2021-03-27T15:40:25Z" visited="2021-03-27T15:40:25Z">
+    <desc>Conjunto de caracteres: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-03-27T15:40:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/quirinux/Escritorio/Compartida/asistente/estilos/mac/.cache/tracker/parser-version.txt" added="2021-03-27T15:57:02Z" modified="2021-03-27T15:57:02Z" visited="2021-03-27T15:57:02Z">
+    <desc>Conjunto de caracteres: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-03-27T15:57:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/quirinux/Escritorio/Compartida/asistente/estilos/mac/.cache/tracker/locale-for-miner-apps.txt" added="2021-03-27T15:57:10Z" modified="2021-03-27T15:57:10Z" visited="2021-03-27T15:57:10Z">
+    <desc>Conjunto de caracteres: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-03-27T15:57:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/quirinux/Escritorio/Compartida/asistente/estilos/mac/.cache/tracker/last-crawl.txt" added="2021-03-27T15:57:15Z" modified="2021-03-27T15:57:15Z" visited="2021-03-27T15:57:15Z">
+    <desc>Conjunto de caracteres: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-03-27T15:57:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

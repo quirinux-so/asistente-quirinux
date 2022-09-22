@@ -1,0 +1,42 @@
+' Gambas class file
+
+
+Public Sub Label2_MouseDown()
+
+  
+
+End
+
+Public Sub TextArea1_KeyPress()
+
+  
+
+End
+
+Public Sub TextArea2_KeyPress()
+
+  
+
+End
+
+Public Sub Traducir_Click()
+
+  Shell "/opt/asistente/idiomas/en_US/en_US.sh"
+  Quit
+
+End
+
+Public Sub Cancelar_Click()
+
+  FMain.show
+  Me.Close
+
+
+End
+
+Public Sub Form_Open()
+
+  
+
+End
+
